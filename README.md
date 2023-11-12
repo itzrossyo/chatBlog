@@ -74,7 +74,7 @@ The main goals of users visiting Flask Blog are:
 
 ### Wireframes
 
-[Link to wireframes on GitHub](https://github.com/itzrossyo/blog-flask/tree/main/lib/readmeimages/wireframes)
+[Link to wireframes on GitHub](https://github.com/itzrossyo/chatblog-ux/blob/main/Home%20page.png)
 
 ### Colour Scheme
 
@@ -181,7 +181,7 @@ To clone the Flask Blog repository:
 
 ### W3C Validator
 
-[Link to GitHub W3C Validation images](https://github.com/itzrossyo/blog-flask/tree/main/lib/readmeimages/htmlcssvalidtation)
+[Link to GitHub W3C Validation images](https://raw.githubusercontent.com/itzrossyo/chatblog-ux/main/cssvalidation.png?token=GHSAT0AAAAAACIBVAZLMLTRKJ2WLFJVLYAKZKRMJMQ)
 
 ### Solved Bugs
 
@@ -198,9 +198,6 @@ To clone the Flask Blog repository:
 |------------|-----------|-----------------|
 | None       |           |                 |
 
-## Validation and Formatting
-
-[Images for validation with JSHint](https://github.com/itzrossyo/blog-flask/tree/main/lib/readmeimages/jshintcleanup)
 
 The website's code will be validated and properly formatted to adhere to industry best practices.
 
