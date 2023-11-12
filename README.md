@@ -257,13 +257,14 @@ Config a config.json file
 }`
 
 * Now open the Config.py in the flaskblog folder
-`sudo nano flask/blog/config.py` and enter the following  
-<br>  
-`import os`
-<br>`import json`<br>  
+`sudo nano flask/blog/config.py` and enter the following
+
+`import os` <br>
+`import json`
+
 `with open('/etc/config.json') as config_file:
-    config = json.load(config_file)`  
-<br>
+    config = json.load(config_file)`
+
 `class Config:
     SQLALCHEMY_DATABASE_URI = config.get('SQLALCHEMY_DATABASE_URI')
     SECRET_KEY = config.get('SECRET_KEY')
@@ -272,7 +273,6 @@ Config a config.json file
     MAIL_USE_TLS = True
     MAIL_USERNAME = config.get('EMAIL_USER')
     MAIL_PASSWORD = config.get('EMAIL_PASS')`
-<br>
 
 
 * Edit the Nginx configuration file, usually located at /etc/nginx/sites-available/default, and set the root to the
