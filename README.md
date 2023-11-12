@@ -14,7 +14,6 @@
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
     - [Features](#features)
-    - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
 - [Deployment & Local Development](#deployment--local-development)
     - [Deployment](#deployment)
