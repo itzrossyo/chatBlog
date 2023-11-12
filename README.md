@@ -230,19 +230,55 @@ interests.
 
 3. Web Server Installed: Have a web server (Nginx) installed and configured on your Linux server
 
+4. other user other than root as this is recommended
+
+
 ### 1. Clone the Git Repository:
 
 On your local machine, open a terminal and navigate to the directory where you want to store your website files.
 ![img.png](img.png)
+
 
 ### 2. Step-by-Step Deployment:
 
 Configure the Web Server:
 Configure your web server to serve the files from the cloned repository. This involves creating a virtual host or
 configuring the default site. The configuration details depend on your web server.
+Config a config.json file
 
-* For Nginx:
-  Edit the Nginx configuration file, usually located at /etc/nginx/sites-available/default, and set the root to the
+`sudo touch /etc/config.json` <br>  
+
+`sudo nano /etc/config.json`
+
+* In your json add the following 
+
+`{
+  "SECRET_kEY": "your_Secret_key",`<br> 
+  `"SQLALCHEMY_DATABASE_URI": "sqlite:///site.db"`<br>
+  `"EMAIL_USER": "your email",`<br>
+  `"EMAIL_PASS": "Your_Email_Password"
+}`
+
+* Now open the Config.py in the flaskblog folder
+`sudo nano flask/blog/config.py` and enter the following  
+<br>  
+`import os`
+<br>`import json`<br>  
+`with open('/etc/config.json') as config_file:
+    config = json.load(config_file)`  
+<br>
+`class Config:
+    SQLALCHEMY_DATABASE_URI = config.get('SQLALCHEMY_DATABASE_URI')
+    SECRET_KEY = config.get('SECRET_KEY')
+    MAIL_SERVER = 'smtp.googlemail.com'
+    MAIL_PORT = 587
+    MAIL_USE_TLS = True
+    MAIL_USERNAME = config.get('EMAIL_USER')
+    MAIL_PASSWORD = config.get('EMAIL_PASS')`
+<br>
+
+
+* Edit the Nginx configuration file, usually located at /etc/nginx/sites-available/default, and set the root to the
   directory where your website files are.
   ![img_1.png](img_1.png)
 
@@ -251,10 +287,14 @@ configuring the default site. The configuration details depend on your web serve
 Commit your changes locally and push them to the server.
 ![img_2.png](img_2.png)
 
+
+
 ### 4. Pull Changes on the Server:
 
 On the server, navigate to the website directory and pull the changes.
 ![img_3.png](img_3.png)
+
+Then cd into the folder and run pip install -r requirements.txt
 
 ### 5. Restart the Web Server:
 
