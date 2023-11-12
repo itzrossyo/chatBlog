@@ -1,21 +1,10 @@
----
-title: Flask
-description: A popular minimal server framework for Python
-tags:
-  - python
-  - flask
----
+# Flask Blog
 
-# Python Flask Example
-
-# Cryptosite-P2
-
-![GitHub last commit](https://img.shields.io/github/last-commit/itzrossyo/cryptosite-p2?logo=github&style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/itzrossyo/cryptosite-p2?logo=github&style=flat-square)
-![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/cryptosite-p2?logo=github&style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/itzrossyo/cryptosite-p2?logo=github&style=flat-square)
-![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Fitzrossyo.github.io%2Fcryptosite-p2%2F)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/itzrossyo/chatBlog?logo=github&style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/itzrossyo/chatBlog?logo=github&style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/chatBlog?logo=github&style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/itzrossyo/chatBlog?logo=github&style=flat-square)
+![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https://blog.devross.co.uk/)
 ## Contents
 
 - [User Experience (UX)](#user-experience-ux)
@@ -25,7 +14,6 @@ tags:
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
     - [Features](#features)
-    - [chatbot commands](#Commands)
     - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
 - [Deployment & Local Development](#deployment--local-development)
@@ -42,267 +30,234 @@ tags:
 - [Future Developments](#future-developments)
 - [Content](#content)
 
-
 ---
 
 ## User Experience (UX)
 
-Cryptosite-P2 is a website aimed at providing users with information about cryptocurrency and blockchain technology. The
-site aims to create an informative and user-friendly experience for visitors interested in understanding the world of
-digital currencies.
-
-### Background
-
-Cryptocurrency has gained significant attention in recent years, revolutionizing the financial landscape with its
-decentralized and secure nature. However, understanding the complexities of cryptocurrencies can be daunting for
-newcomers. Cryptosite-P2 aims to bridge this knowledge gap by presenting valuable information in an accessible format.
+Flask Blog is a website aimed at providing users with engaging and insightful blog content. The site strives to create
+an informative and user-friendly experience for visitors interested in exploring various topics through blog posts.
 
 ### Key Information
 
-- Name: Cryptosite-P2
-- Website: [https://itzrossyo.github.io/cryptosite-p2/](https://itzrossyo.github.io/cryptosite-p2/)
-- Purpose: To show how easy it is to get into crypto.
-- Target Audience: Anyone interested in learning about cryptocurrencies, from beginners to enthusiasts.
+- Name: Flask Blog
+- Website: [https://blog.devross.co.uk](https://blog.devross.co.uk/)
+- Purpose: To offer a diverse range of blog content for readers.
+- Target Audience: Individuals interested in exploring and reading blog posts on various subjects.
 
 ### User Goals
 
-The main goals of users visiting Cryptosite-P2 are:
+The main goals of users visiting Flask Blog are:
 
-- To gain a better understanding of what cryptocurrencies are and how they work.
-- To learn about the underlying technology of blockchain and its applications.
-- To find reliable information and resources related to cryptocurrency investing and trading.
-- To contact the website owners for further inquiries or feedback.
+- To discover interesting and well-written blog posts on different topics.
+- To easily navigate through the website and find content that matches their interests.
+- To engage with the content through comments and feedback.
+- To share their favorite blog posts with others.
 
 ### First Time Visitor Goals
 
 - Understand the purpose of the website.
-- Navigate through different sections to explore relevant information.
-- Find out how to get involved or contact the website owners.
+- Navigate through different blog categories to discover diverse content.
+- Find out how to get involved or leave comments on blog posts.
 
 ### Returning Visitor Goals
 
-- Check for new content, updates, or resources.
-- Revisit specific sections for reference or deeper understanding.
+- Check for new blog posts, updates, or featured content.
+- Revisit specific categories for more blog posts on preferred topics.
+- Interact with the blog community through comments and discussions.
 
 ### Frequent Visitor Goals
 
-- Engage with the site's community through testimonials and contributions.
-- Participate in discussions or events related to cryptocurrencies.
+- Contribute to the blog community by submitting guest posts or ideas.
+- Share blog posts on social media platforms.
+- Participate in polls or surveys related to blog content preferences.
 
 ## Design
 
 ### Wireframes
 
-[link to wireframes on GitHub](https://github.com/itzrossyo/cryptosite-p2/tree/main/lib/readmeimages/wireframes)
+[Link to wireframes on GitHub](https://github.com/itzrossyo/blog-flask/tree/main/lib/readmeimages/wireframes)
 
 ### Colour Scheme
 
-The website will use a modern and minimalistic color scheme, primarily consisting of orange, purple, and white for
-The colors aim to convey a sense of trust, and eye catching.
+The website will use a modern and minimalistic color scheme, primarily consisting of pastel colors, promoting a clean
+and inviting visual experience.
 
 ### Typography
 
-The font used on the website will be a clean and easily readable sans-serif typeface, ensuring an effortless reading
+The font used on the website will be a clean and easily readable sans-serif typeface, ensuring an enjoyable reading
 experience for users.
 
 ### Imagery
 
-High-quality and relevant images related to cryptocurrencies and blockchain will be used throughout the website to
-enhance the visual appeal and maintain user engagement.
+High-quality and relevant images will be strategically used throughout the website to enhance visual appeal and maintain
+user engagement.
 
 ### Features
 
-- Chatbot
-- Register and login
-- live crypto price's
+- Informative Blog Posts
+- User Registration and Login
+- Commenting System
 
 #### Header
 
-The header will be fixed at the top of the page and will include the site logo, navigation menu, and a call-to-action (
-CTA) button leading to the "Get Involved" page.
+The header will be fixed at the top of the page, featuring a navigation menu.
 
-#### Footer / Chat bot
+#### Footer
 
-The footer will contain essential key item the chat BOT in the right hand bottom corner. also a copyright mark</br>
-   
-### Commands
-* hello
-* help
-* crypto
-* buy
-* sell
-* swap
-* get started
-* wallet
-* invest
-* contact
-
-#### Home Page
-
-The homepage will provide a brief introduction to the website's purpose and feature key sections guiding users to
-explore further with the top 3 hot coin.
-
-#### Buy and sale
-
-This page will encourage users to actively participate in the site's community by sharing their experiences, knowledge,
-and insights related to cryptocurrencies.
-
-#### latest Price's on Crypto
-
-The "Contact Us" page will include a contact form and relevant contact information for users to get in touch with any
-queries or feedback.
-
-#### Signup
-
-Upon submitting the contact form, users will be redirected to a "Thank You" page, acknowledging their message and
-expressing gratitude.
-
-#### Accessibility
-
-The website will be designed with accessibility in mind, ensuring that all users, including those with disabilities, can
-easily access and navigate the content.
+The footer will contain essential elements, including links to social media, copyright information, and potentially a
+newsletter subscription form.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- webstorm
-- Api
-- fontawesome
+- Python
+- Flask
+- SQLAlchemy
+- Bcrypt
+- Jinja2
 
 ## Deployment & Local Development
 
 ### Deployment
 
-The website is currently deployed
-at [https://itzrossyo.github.io/cryptosite-p2/](https://itzrossyo.github.io/cryptosite-p2/).
+The website is currently deployed at [https://blog.devross.co.uk/](https://blog.devross.co.uk/).
 
 ### Local Development
 
 To run the website locally, follow these steps:
 
-1. Clone the repository
-   from [https://github.com/itzrossyo/cryptosite-p2.git](https://github.com/itzrossyo/cryptosite-p2.git).
+1. Clone the repository from [https://github.com/itzrossyo/blog-flask.git](https://github.com/itzrossyo/blog-flask.git).
 2. Open the index.html file in your preferred web browser.
 
 ### How to Fork
 
-To fork the Birmingham Egg repository:
+To fork the Flask Blog repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project,
-   Birmingham-egg-Project !(https://github.com/itzrossyo/cryptosite-p2.git/tree/main)
+2. Go to the repository for this project, [blog-flask](https://github.com/itzrossyo/blog-flask).
 3. Click the Fork button in the top right corner.
 
 ### How to Clone
 
-To clone the Birmingham Egg repository:
+To clone the Flask Blog repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this
-   project, [Birmingham-egg-milestone-project](https://github.com/itzrossyo/cryptosite-p2.git).
+2. Go to the repository for this project, [blog-flask](https://github.com/itzrossyo/blog-flask).
 3. Click on the code button, select whether you would like to clone with
-   HTTPS https://github.com/itzrossyo/cryptosite-p2.git and
-   copy the link shown.
+   HTTPS https://github.com/itzrossyo/blog-flask.git and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for
    the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
-- laptop
-    - macbook pro 13 2019
-    - Hp omen 15 inch
-    - dell xps
+- Laptop
+    - MacBook Pro 13 2019
+    - HP Omen 15 inch
+    - Dell XPS
 - Mobile
-    - Oppo find x5 lite (6.42inch)
-    - samsung s22 ultra
-    - iPhone 13 pro max
-    - iphone 12 max
-    - iphone 12
-    - google pixel 6
-- Browser's
+    - Oppo Find X5 Lite (6.42inch)
+    - Samsung S22 Ultra
+    - iPhone 13 Pro Max
+    - iPhone 12 Max
+    - iPhone 12
+    - Google Pixel 6
+- Browsers
     - Google Chrome
     - Firefox
     - Opera
     - Safari
 
-| Feature                       | Expected Outcome                                                                                                                  | Testing preformed                                                                                                              | Result                                             | Pass/Fail |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|-----------|
-| font-awesome icons            | icons will be used on the menu drop down to indicate what links do what more for friendly use case                                | Clicked the hamburger button on mobile and desktop to confirm icons display and animate.                                       | Icons displayed and animated as expected.          | Pass      |
-| 404 error page                | this should come up when the user page won't load or are side it down giving them a custom special message                        | Accessed a non-existing URL to trigger the 404 page. Verified the custom message                                               | Custom 404 page appeared with correct message.     | Pass      |
-| Informative Chatbot           | The interactive chatbot, GenBot, offers users valuable information about cryptocurrencies, blockchain, and trading strategies.    | Engaged with GenBot by asking questions about crypto basics and blockchain. Checked responses for accuracy.                    | GenBot provided accurate and relevant information. | Pass      |
-| User Registration and Login   | A user registration and login system allows users to create accounts, log in, and securely access personalized features.          | Attempted to register new user accounts and log in with existing accounts. Verified account creation and secure login process. | User accounts created and login process secure.    | Pass      |
-| Cryptocurrency Price Tracking | Users can view the latest prices of various cryptocurrencies, helping them stay informed about market fluctuations and trends.    | The test we performed by using the device and click the link and seeing if this did open google maps ready for you             | Displayed prices matched actual market data.       | Pass      |
-| hamburger Button/animation    | once the page has loaded and on mobile the hamburger will do an animation showing a wobble effect lifting people know to press it | This test was preformed by once the page has loaded and watching it to see if it acutely wobbled                               | this did not work as intended                      | Fail      |
-| Dropdown menu                 | once the hamburger button has been pressed on mobile a drop down menu will slide in from the left with a smooth animation         | this test was preformed by clicking on the hamburger menu to see if the dropdown menu will show up for the right smoothly      | this worked as intended                            | Pass      |
+| Feature                 | Expected Outcome                                                                                                           | Testing Performed                                                                                                              | Result                                              | Pass/Fail |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------|
+| Font-Awesome Icons      | Icons will be used on the menu dropdown to indicate what links do what for a friendly user experience.                     | Clicked the hamburger button on mobile and desktop to confirm icons display and animate.                                       | Icons displayed and animated as expected.           | Pass      |
+| 404 Error Page          | This should come up when the user page won't load or is down, giving them a custom special message.                        | Accessed a non-existing URL to trigger the 404 page. Verified the custom message.                                              | Custom 404 page appeared with the correct message.  | Pass      |
+| Informative Blog Posts  | Users can explore diverse blog posts on different topics.                                                                  | Browsed through various blog categories and read different blog posts.                                                         | Blog posts displayed and covered a range of topics. | Pass      |
+| User Registration/Login | A user registration and login system allow users to create accounts, log in, and securely access personalized features.    | Attempted to register new user accounts and log in with existing accounts. Verified account creation and secure login process. | User accounts created, and login process secure.    | Pass      |
+| Dropdown Menu           | Once the hamburger button has been pressed on mobile, a dropdown menu will slide in from the left with a smooth animation. | This test was performed by clicking on the hamburger menu to see if the dropdown menu will show up smoothly.                   | This worked as intended.                            | Pass      |
 
 ---
 
 ### W3C Validator
 
-[Link to GitHub W3C Validation images ](https://github.com/itzrossyo/cryptosite-p2/tree/main/lib/readmeimages/htmlcssvalidtation)
+[Link to GitHub W3C Validation images](https://github.com/itzrossyo/blog-flask/tree/main/lib/readmeimages/htmlcssvalidtation)
 
 ### Solved Bugs
 
-| Num | Bug                                           | How I solved the bug                                                                                                                                                                                                                             | 
-|-----|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Incorrect Data Displayed on Crypto Price Page | I Confirm the source of the data being displayed. If the data is fetched from an API, review the API documentation and verify the request parameters and response structure.                                                                     |
-| 2   | Unresponsive Design on Mobile Devices         | I implement a responsive design using media queries in your CSS. Ensure that the layout, images, and content adjust appropriately to different screen sizes. Test the responsiveness on various devices and screen sizes.                        |
-| 3   | Chatbot Not Displaying Messages               | I Review the JavaScript code responsible for handling the chat bots functionality. Ensure that event listeners, user input processing, and responses are working as intended. Check for any errors in the browser console and debug accordingly. |
-| 4   | Unintended Page Redirects                     | I Examined the HTML code for the links causing the issue. Ensure that the href attributes of the links point to the correct file paths or URLs. Correct any typos or errors in the links.                                                        |
+| Num | Bug                                        | How I Solved the Bug                                                                                                                                             |
+|-----|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Incorrect Data Displayed on Blog Post Page | Confirmed the source of the data being displayed. If the data is fetched from a database, reviewed the database queries and verified the data retrieval process. |
+| 2   | Unresponsive Design on Mobile Devices      | Implemented a responsive design using media queries in CSS. Ensured that the layout, images, and content adjusted appropriately to different screen sizes.       |
+| 3   | Commenting System Not Displaying Comments  | Reviewed the Python and JavaScript code responsible for handling the commenting system. Ensured that the backend processed and stored comments correctly.        |
+| 4   | Unintended Page Redirects                  | Examined the HTML code for the links causing the issue. Ensured that the href attributes of the links pointed to the correct file paths or URLs.                 |
 
 ### Known Bugs
 
-| known bugs | Bug issue                                                           | Plan to resolve                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1          | Login users do not retain their balance when logged in and  log out | Currently, user account balances are not persisted between sessions. To address this, I plan to implement a backend database (DB) to store user account information securely. This will allow user balances to be retrieved and updated accurately, ensuring that their funds are maintained even after refreshing the page. By implementing a robust database solution, users' financial data will be stored securely and consistently, providing a seamless experience when using the platform. Additionally, this enhancement will pave the way for future features such as transaction history and portfolio tracking. |
-
----
+| Known Bugs | Bug Issue | Plan to Resolve |
+|------------|-----------|-----------------|
+| None       |           |                 |
 
 ## Validation and Formatting
 
-[images for validation with jshint](https://github.com/itzrossyo/cryptosite-p2/tree/main/lib/readmeimages/jshintcleanup)
+[Images for validation with JSHint](https://github.com/itzrossyo/blog-flask/tree/main/lib/readmeimages/jshintcleanup)
 
 The website's code will be validated and properly formatted to adhere to industry best practices.
 
 ## Testing User Stories
 
-| Testing User Stories |                      | User Story                                                                                                                                 | Test Case                                                                                                    | Result                                                                                                                                          |
-|----------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| User Story           | Newcomer Exploration | As a newcomer to the world of cryptocurrencies, I want to understand the basics of how cryptocurrencies work and their potential benefits. | Navigate to the homepage and read the introductory content about cryptocurrencies and blockchain technology. | The homepage provides a clear and concise introduction to cryptocurrencies and blockchain, catering to newcomers' need for basic understanding. |
-| User Story           | Price Monitoring     | As an active investor, I want to stay up-to-date with the latest cryptocurrency prices to make informed trading decisions.                 | Navigate to the "Crypto Latest Price" page and observe the real-time prices of popular cryptocurrencies.     | The "Crypto Latest Price" page displays accurate and real-time cryptocurrency prices, allowing investors to monitor price trends effectively.   |
-| User Story           | Support and Feedback | As a user with questions or suggestions, I want a way to contact the website owners and receive timely responses.                          | Click the "ChatBot" and it was so simple to ask the questions                                                | The fast response from the chatbot made my questions to be so fast .                                                                            |
+| Testing User Stories |                          | User Story                                                                                                                        | Test Case                                                                              | Result                                                                                                                               |
+|----------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| User Story           | Newcomer Exploration     | As a newcomer to the blog, I want to understand the types of content available and find interesting blog posts on various topics. | Navigate to the homepage and read the introductory content about the blog.             | The homepage provides a clear and concise introduction to the blog, catering to newcomers' need for basic understanding.             |
 
 ## Future Developments
 
-I would love to expand on this but to rebuild it from scratch using a better framework like svelte and push more on the
-Database side for better user experience
+I would love to expand on this by incorporating additional features such as:
+
+- A search functionality for users to find specific topics easily.
+- Integration with social media platforms for seamless sharing of blog posts.
 
 ### Content
 
-- Api from https://api.coinlore.net/api/tickers/
-  <br>
-  <br>
-- web design layout from https://www.youtube.com/watch?v=nidmDGwJ-Jw&list=LL&index=39&t=679s
-  <br>
-  <br>
-- login idea from https://www.youtube.com/watch?v=ILviQic0c8g&list=LL&index=27&t=1001s&pp=gAQBiAQB
+The blog content will continue to cover a wide range of topics, ensuring diversity and relevance to various reader
+interests.
 
+## Prerequisites
 
+1. Git Installed: Make sure Git is installed on your local machine.
 
+2. SSH Key Pair: Ensure you have an SSH key pair set up for secure communication with your server.
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+3. Web Server Installed: Have a web server (Nginx) installed and configured on your Linux server
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+### 1. Clone the Git Repository:
 
-## ✨ Features
+On your local machine, open a terminal and navigate to the directory where you want to store your website files.
+![img.png](img.png)
 
-- Python
-- Flask
+### 2. Step-by-Step Deployment:
 
-## 💁‍♀️ How to use
+Configure the Web Server:
+Configure your web server to serve the files from the cloned repository. This involves creating a virtual host or
+configuring the default site. The configuration details depend on your web server.
 
-- Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+* For Nginx:
+  Edit the Nginx configuration file, usually located at /etc/nginx/sites-available/default, and set the root to the
+  directory where your website files are.
+  ![img_1.png](img_1.png)
+
+### 3. Push Changes to the Server:
+
+Commit your changes locally and push them to the server.
+![img_2.png](img_2.png)
+
+### 4. Pull Changes on the Server:
+
+On the server, navigate to the website directory and pull the changes.
+![img_3.png](img_3.png)
+
+### 5. Restart the Web Server:
+
+After pulling the changes, restart your web server to apply the new configurations.
+![img_4.png](img_4.png)
