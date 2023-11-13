@@ -24,7 +24,6 @@
     - [W3C Validator](#w3c-validator)
     - [Solved Bugs](#solved-bugs)
     - [Known Bugs](#known-bugs)
-- [Validation and Formatting](#validation-and-formatting)
 - [Testing User Stories](#testing-user-stories)
 - [Future Developments](#future-developments)
 - [Content](#content)
@@ -116,6 +115,7 @@ newsletter subscription form.
 - SQLAlchemy
 - Bcrypt
 - Jinja2
+- CloudFlare
 
 ## Deployment & Local Development
 
@@ -297,3 +297,12 @@ Then cd into the folder and run pip install -r requirements.txt
 
 After pulling the changes, restart your web server to apply the new configurations.
 ![img_4.png](img_4.png)
+
+#### Homelab 
+
+* I'm using promox to run many home project servers.
+* As one server is running Windows server 2019.
+* my domain Devross.co.uk things are very simple so simply. 
+* having a fresh installation up and by going to [cloudflare](https://www.cloudflare.com/en-gb/e) you can install there services to the machine.
+* creating a tunnel without using my main website to show simple projects I am able to just run tunnels that allow me to direct all traffic though there services without exposing ips or ports.
+* By doing this all you need is a subdomain before your domain what type of service "http, https, unix, ssh , TCP," the list goes on once you have picked your service simply put your ip in that your app is running on followed by the port save the changes and your site is live.
