@@ -219,6 +219,8 @@ I would love to expand on this by incorporating additional features such as:
 The blog content will continue to cover a wide range of topics, ensuring diversity and relevance to various reader
 interests.
 
+
+
 ## Prerequisites
 
 1. Git Installed: Make sure Git is installed on your local machine.
@@ -306,3 +308,16 @@ After pulling the changes, restart your web server to apply the new configuratio
 * having a fresh installation up and by going to [cloudflare](https://www.cloudflare.com/en-gb/e) you can install there services to the machine.
 * creating a tunnel without using my main website to show simple projects I am able to just run tunnels that allow me to direct all traffic though there services without exposing ips or ports.
 * By doing this all you need is a subdomain before your domain what type of service "http, https, unix, ssh , TCP," the list goes on once you have picked your service simply put your ip in that your app is running on followed by the port save the changes and your site is live.
+
+
+
+## Please beware that this db is the dev db and will NOT be handing out my server side db due to email address and user info. Below is how to set up local ENV ad add the follow. 
+
+
+1. SECRET_KEY: j(9%68b-n)omf#&sqtl%ofh4r@88kfxoj3ps%9_=vg)-r#g&*u
+ 
+2. SQLALCHEMY_DATABASE_URI: sqlite:///site.db
+
+![img.png](localENVsetup.jpg)
+## I will not be giving out my email username and passwords for gmail smpt services this will have to set up using your own that's if you want to test the service.
+![img_4.png](env.png)
