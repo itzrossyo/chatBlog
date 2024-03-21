@@ -313,11 +313,6 @@ After pulling the changes, restart your web server to apply the new configuratio
 
 ## Please beware that this db is the dev db and will NOT be handing out my server side db due to email address and user info. Below is how to set up local ENV ad add the follow. 
 
-
-1. SECRET_KEY: j(9%68b-n)omf#&sqtl%ofh4r@88kfxoj3ps%9_=vg)-r#g&*u
- 
-2. SQLALCHEMY_DATABASE_URI: sqlite:///site.db
-
 ![img.png](localENVsetup.jpg)
 ## I will not be giving out my email username and passwords for gmail smpt services this will have to set up using your own that's if you want to test the service.
 ![img_4.png](env.png)
