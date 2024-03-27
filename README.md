@@ -5,28 +5,29 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/chatBlog?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/itzrossyo/chatBlog?logo=github&style=flat-square)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https://blog.devross.co.uk/)
+
 ## Contents
 
-- [User Experience (UX)](#user-experience-ux)
-- [Design](#design)
-    - [Colour Scheme](#colour-scheme)
-    - [Typography](#typography)
-    - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
-    - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Deployment & Local Development](#deployment--local-development)
-    - [Deployment](#deployment)
-    - [Local Development](#local-development)
-    - [How to Fork](#how-to-fork)
-    - [How to Clone](#how-to-clone)
-- [Testing](#testing)
-    - [W3C Validator](#w3c-validator)
-    - [Solved Bugs](#solved-bugs)
-    - [Known Bugs](#known-bugs)
-- [Testing User Stories](#testing-user-stories)
-- [Future Developments](#future-developments)
-- [Content](#content)
+-   [User Experience (UX)](#user-experience-ux)
+-   [Design](#design)
+    -   [Colour Scheme](#colour-scheme)
+    -   [Typography](#typography)
+    -   [Imagery](#imagery)
+    -   [Wireframes](#wireframes)
+    -   [Features](#features)
+-   [Technologies Used](#technologies-used)
+-   [Deployment & Local Development](#deployment--local-development)
+    -   [Deployment](#deployment)
+    -   [Local Development](#local-development)
+    -   [How to Fork](#how-to-fork)
+    -   [How to Clone](#how-to-clone)
+-   [Testing](#testing)
+    -   [W3C Validator](#w3c-validator)
+    -   [Solved Bugs](#solved-bugs)
+    -   [Known Bugs](#known-bugs)
+-   [Testing User Stories](#testing-user-stories)
+-   [Future Developments](#future-developments)
+-   [Content](#content)
 
 ---
 
@@ -37,37 +38,37 @@ an informative and user-friendly experience for visitors interested in exploring
 
 ### Key Information
 
-- Name: Flask Blog
-- Website: [https://blog.devross.co.uk](https://blog.devross.co.uk/)
-- Purpose: To offer a diverse range of blog content for readers.
-- Target Audience: Individuals interested in exploring and reading blog posts on various subjects.
+-   Name: Flask Blog
+-   Website: [https://blog.devross.co.uk](https://blog.devross.co.uk/)
+-   Purpose: To offer a diverse range of blog content for readers.
+-   Target Audience: Individuals interested in exploring and reading blog posts on various subjects.
 
 ### User Goals
 
 The main goals of users visiting Flask Blog are:
 
-- To discover interesting and well-written blog posts on different topics.
-- To easily navigate through the website and find content that matches their interests.
-- To engage with the content through comments and feedback.
-- To share their favorite blog posts with others.
+-   To discover interesting and well-written blog posts on different topics.
+-   To easily navigate through the website and find content that matches their interests.
+-   To engage with the content through comments and feedback.
+-   To share their favorite blog posts with others.
 
 ### First Time Visitor Goals
 
-- Understand the purpose of the website.
-- Navigate through different blog categories to discover diverse content.
-- Find out how to get involved or leave comments on blog posts.
+-   Understand the purpose of the website.
+-   Navigate through different blog categories to discover diverse content.
+-   Find out how to get involved or leave comments on blog posts.
 
 ### Returning Visitor Goals
 
-- Check for new blog posts, updates, or featured content.
-- Revisit specific categories for more blog posts on preferred topics.
-- Interact with the blog community through comments and discussions.
+-   Check for new blog posts, updates, or featured content.
+-   Revisit specific categories for more blog posts on preferred topics.
+-   Interact with the blog community through comments and discussions.
 
 ### Frequent Visitor Goals
 
-- Contribute to the blog community by submitting guest posts or ideas.
-- Share blog posts on social media platforms.
-- Participate in polls or surveys related to blog content preferences.
+-   Contribute to the blog community by submitting guest posts or ideas.
+-   Share blog posts on social media platforms.
+-   Participate in polls or surveys related to blog content preferences.
 
 ## Design
 
@@ -92,9 +93,9 @@ user engagement.
 
 ### Features
 
-- Informative Blog Posts
-- User Registration and Login
-- Commenting System
+-   Informative Blog Posts
+-   User Registration and Login
+-   Commenting System
 
 #### Header
 
@@ -107,15 +108,15 @@ newsletter subscription form.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- Python
-- Flask
-- SQLAlchemy
-- Bcrypt
-- Jinja2
-- CloudFlare
+-   HTML5
+-   CSS3
+-   JavaScript
+-   Python
+-   Flask
+-   SQLAlchemy
+-   Bcrypt
+-   Jinja2
+-   CloudFlare
 
 ## Deployment & Local Development
 
@@ -152,25 +153,25 @@ To clone the Flask Blog repository:
 
 ## Testing
 
-- Laptop
-    - MacBook Pro 13 2019
-    - HP Omen 15 inch
-    - Dell XPS
-- Mobile
-    - Oppo Find X5 Lite (6.42inch)
-    - Samsung S22 Ultra
-    - iPhone 13 Pro Max
-    - iPhone 12 Max
-    - iPhone 12
-    - Google Pixel 6
-- Browsers
-    - Google Chrome
-    - Firefox
-    - Opera
-    - Safari
+-   Laptop
+    -   MacBook Pro 13 2019
+    -   HP Omen 15 inch
+    -   Dell XPS
+-   Mobile
+    -   Oppo Find X5 Lite (6.42inch)
+    -   Samsung S22 Ultra
+    -   iPhone 13 Pro Max
+    -   iPhone 12 Max
+    -   iPhone 12
+    -   Google Pixel 6
+-   Browsers
+    -   Google Chrome
+    -   Firefox
+    -   Opera
+    -   Safari
 
 | Feature                 | Expected Outcome                                                                                                           | Testing Performed                                                                                                              | Result                                              | Pass/Fail |
-|-------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------|
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | --------- |
 | Font-Awesome Icons      | Icons will be used on the menu dropdown to indicate what links do what for a friendly user experience.                     | Clicked the hamburger button on mobile and desktop to confirm icons display and animate.                                       | Icons displayed and animated as expected.           | Pass      |
 | 404 Error Page          | This should come up when the user page won't load or is down, giving them a custom special message.                        | Accessed a non-existing URL to trigger the 404 page. Verified the custom message.                                              | Custom 404 page appeared with the correct message.  | Pass      |
 | Informative Blog Posts  | Users can explore diverse blog posts on different topics.                                                                  | Browsed through various blog categories and read different blog posts.                                                         | Blog posts displayed and covered a range of topics. | Pass      |
@@ -186,7 +187,7 @@ To clone the Flask Blog repository:
 ### Solved Bugs
 
 | Num | Bug                                        | How I Solved the Bug                                                                                                                                             |
-|-----|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Incorrect Data Displayed on Blog Post Page | Confirmed the source of the data being displayed. If the data is fetched from a database, reviewed the database queries and verified the data retrieval process. |
 | 2   | Unresponsive Design on Mobile Devices      | Implemented a responsive design using media queries in CSS. Ensured that the layout, images, and content adjusted appropriately to different screen sizes.       |
 | 3   | Commenting System Not Displaying Comments  | Reviewed the Python and JavaScript code responsible for handling the commenting system. Ensured that the backend processed and stored comments correctly.        |
@@ -195,31 +196,28 @@ To clone the Flask Blog repository:
 ### Known Bugs
 
 | Known Bugs | Bug Issue | Plan to Resolve |
-|------------|-----------|-----------------|
+| ---------- | --------- | --------------- |
 | None       |           |                 |
-
 
 The website's code will be validated and properly formatted to adhere to industry best practices.
 
 ## Testing User Stories
 
-| Testing User Stories |                          | User Story                                                                                                                        | Test Case                                                                              | Result                                                                                                                               |
-|----------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| User Story           | Newcomer Exploration     | As a newcomer to the blog, I want to understand the types of content available and find interesting blog posts on various topics. | Navigate to the homepage and read the introductory content about the blog.             | The homepage provides a clear and concise introduction to the blog, catering to newcomers' need for basic understanding.             |
+| Testing User Stories |                      | User Story                                                                                                                        | Test Case                                                                  | Result                                                                                                                   |
+| -------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| User Story           | Newcomer Exploration | As a newcomer to the blog, I want to understand the types of content available and find interesting blog posts on various topics. | Navigate to the homepage and read the introductory content about the blog. | The homepage provides a clear and concise introduction to the blog, catering to newcomers' need for basic understanding. |
 
 ## Future Developments
 
 I would love to expand on this by incorporating additional features such as:
 
-- A search functionality for users to find specific topics easily.
-- Integration with social media platforms for seamless sharing of blog posts.
+-   A search functionality for users to find specific topics easily.
+-   Integration with social media platforms for seamless sharing of blog posts.
 
 ### Content
 
 The blog content will continue to cover a wide range of topics, ensuring diversity and relevance to various reader
 interests.
-
-
 
 ## Prerequisites
 
@@ -231,12 +229,10 @@ interests.
 
 4. other user other than root as this is recommended
 
-
 ### 1. Clone the Git Repository:
 
 On your local machine, open a terminal and navigate to the directory where you want to store your website files.
 ![img.png](img.png)
-
 
 ### 2. Step-by-Step Deployment:
 
@@ -245,21 +241,21 @@ Configure your web server to serve the files from the cloned repository. This in
 configuring the default site. The configuration details depend on your web server.
 Config a config.json file
 
-`sudo touch /etc/config.json` <br>  
+`sudo touch /etc/config.json` <br>
 
 `sudo nano /etc/config.json`
 
-* In your json add the following 
+-   In your json add the following
 
 `{
-  "SECRET_kEY": "your_Secret_key",`<br> 
-  `"SQLALCHEMY_DATABASE_URI": "sqlite:///site.db"`<br>
-  `"EMAIL_USER": "your email",`<br>
-  `"EMAIL_PASS": "Your_Email_Password"
+  "SECRET_kEY": "your_Secret_key",`<br>
+`"SQLALCHEMY_DATABASE_URI": "sqlite:///site.db"`<br>
+`"EMAIL_USER": "your email",`<br>
+`"EMAIL_PASS": "Your_Email_Password"
 }`
 
-* Now open the Config.py in the flaskblog folder
-`sudo nano flask/blog/config.py` and enter the following
+-   Now open the Config.py in the flaskblog folder
+    `sudo nano flask/blog/config.py` and enter the following
 
 `import os` <br>
 `import json`
@@ -276,17 +272,14 @@ Config a config.json file
     MAIL_USERNAME = config.get('EMAIL_USER')
     MAIL_PASSWORD = config.get('EMAIL_PASS')`
 
-
-* Edit the Nginx configuration file, usually located at /etc/nginx/sites-available/default, and set the root to the
-  directory where your website files are.
-  ![img_1.png](img_1.png)
+-   Edit the Nginx configuration file, usually located at /etc/nginx/sites-available/default, and set the root to the
+    directory where your website files are.
+    ![img_1.png](img_1.png)
 
 ### 3. Push Changes to the Server:
 
 Commit your changes locally and push them to the server.
 ![img_2.png](img_2.png)
-
-
 
 ### 4. Pull Changes on the Server:
 
@@ -300,19 +293,25 @@ Then cd into the folder and run pip install -r requirements.txt
 After pulling the changes, restart your web server to apply the new configurations.
 ![img_4.png](img_4.png)
 
-#### Homelab 
+#### Homelab
 
-* I'm using promox to run many home project servers.
-* As one server is running Windows server 2019.
-* my domain Devross.co.uk things are very simple so simply. 
-* having a fresh installation up and by going to [cloudflare](https://www.cloudflare.com/en-gb/e) you can install there services to the machine.
-* creating a tunnel without using my main website to show simple projects I am able to just run tunnels that allow me to direct all traffic though there services without exposing ips or ports.
-* By doing this all you need is a subdomain before your domain what type of service "http, https, unix, ssh , TCP," the list goes on once you have picked your service simply put your ip in that your app is running on followed by the port save the changes and your site is live.
+-   I'm using promox to run many home project servers.
+-   As one server is running Windows server 2019.
+-   my domain Devross.co.uk things are very simple so simply.
+-   having a fresh installation up and by going to [cloudflare](https://www.cloudflare.com/en-gb/e) you can install there services to the machine.
+-   creating a tunnel without using my main website to show simple projects I am able to just run tunnels that allow me to direct all traffic though there services without exposing ips or ports.
+-   By doing this all you need is a subdomain before your domain what type of service "http, https, unix, ssh , TCP," the list goes on once you have picked your service simply put your ip in that your app is running on followed by the port save the changes and your site is live.
 
-
-
-## Please beware that this db is the dev db and will NOT be handing out my server side db due to email address and user info. Below is how to set up local ENV ad add the follow. 
+## Please beware that this db is the dev db and will NOT be handing out my server side db due to email address and user info. Below is how to set up local ENV ad add the follow.
 
 ![img.png](localENVsetup.jpg)
+
 ## I will not be giving out my email username and passwords for gmail smpt services this will have to set up using your own that's if you want to test the service.
+
 ![img_4.png](env.png)
+
+##Images for DB
+![img_4.png](db2.png)
+![img_4.png](db.png)
+![img_4.png](db_post.png)
+![img_4.png](db_user.png)
